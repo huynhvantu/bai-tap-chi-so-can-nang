@@ -13,5 +13,5 @@ function xuly(){
 	}else{
 		ketqua="Obese";
 	}
-	document.getElementById('ketquala').innerHTML="chi so can nang la: " +ketqua;
+	document.getElementById('ketquala').innerHTML="Chỉ số cân nặng là: " +ketqua;
 }
