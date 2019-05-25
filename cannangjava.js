@@ -1,9 +1,9 @@
 function xuly(){
-	console.log('da vao ham')
+	console.log('da vao ham');
 	var cannang = document.getElementById('socannang').value;
 	var chieucao = document.getElementById('sochieucao').value;
 	var BMI = parseInt(cannang)/(parseFloat(chieucao)*parseFloat(chieucao));
-	console.log('BMI')
+	console.log(BMI)
 	if(BMI<18){
 		ketqua = "underweight";
 	}else if (BMI<25.0){
